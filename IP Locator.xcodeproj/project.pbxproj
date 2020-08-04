@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D42F3924D92F0100515722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D42F3824D92F0100515722 /* AppDelegate.swift */; };
+		04D42F3B24D92F0100515722 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D42F3A24D92F0100515722 /* SceneDelegate.swift */; };
+		04D42F3D24D92F0100515722 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D42F3C24D92F0100515722 /* ContentView.swift */; };
+		04D42F3F24D92F0300515722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D42F3E24D92F0300515722 /* Assets.xcassets */; };
+		04D42F4224D92F0300515722 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D42F4124D92F0300515722 /* Preview Assets.xcassets */; };
+		04D42F4524D92F0300515722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D42F4324D92F0300515722 /* LaunchScreen.storyboard */; };
+		04D42F4D24D92F7500515722 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D42F4C24D92F7500515722 /* Networking.swift */; };
+		04D42F4F24D9301A00515722 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D42F4E24D9301A00515722 /* Model.swift */; };
+		04D42F5124D938FF00515722 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D42F5024D938FF00515722 /* MapView.swift */; };
+		3D4A1B6D60D60E48637116E7 /* Pods_IP_Locator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BFDC8B69B8C9FC9DF40834 /* Pods_IP_Locator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04D42F3524D92F0100515722 /* IP Locator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IP Locator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D42F3824D92F0100515722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D42F3A24D92F0100515722 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04D42F3C24D92F0100515722 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04D42F3E24D92F0300515722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D42F4124D92F0300515722 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04D42F4424D92F0300515722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D42F4624D92F0300515722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D42F4C24D92F7500515722 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		04D42F4E24D9301A00515722 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		04D42F5024D938FF00515722 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		84BFDC8B69B8C9FC9DF40834 /* Pods_IP_Locator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IP_Locator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA51C8E95DED8B27CAC232A0 /* Pods-IP Locator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IP Locator.release.xcconfig"; path = "Target Support Files/Pods-IP Locator/Pods-IP Locator.release.xcconfig"; sourceTree = "<group>"; };
+		B0F4D0B5B614DD0322DC20E5 /* Pods-IP Locator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IP Locator.debug.xcconfig"; path = "Target Support Files/Pods-IP Locator/Pods-IP Locator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D42F3224D92F0100515722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4A1B6D60D60E48637116E7 /* Pods_IP_Locator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0437B58324D9621B00A9F39A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04D42F3C24D92F0100515722 /* ContentView.swift */,
+				04D42F5024D938FF00515722 /* MapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0437B58424D9622300A9F39A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04D42F4C24D92F7500515722 /* Networking.swift */,
+				04D42F4E24D9301A00515722 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		04D42F2C24D92F0100515722 = {
+			isa = PBXGroup;
+			children = (
+				04D42F3724D92F0100515722 /* IP Locator */,
+				04D42F3624D92F0100515722 /* Products */,
+				6567EBFEF180CFC608E06D3E /* Pods */,
+				6C683842985A8FE6A5672F6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04D42F3624D92F0100515722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D42F3524D92F0100515722 /* IP Locator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D42F3724D92F0100515722 /* IP Locator */ = {
+			isa = PBXGroup;
+			children = (
+				04D42F3824D92F0100515722 /* AppDelegate.swift */,
+				04D42F3A24D92F0100515722 /* SceneDelegate.swift */,
+				0437B58324D9621B00A9F39A /* View */,
+				0437B58424D9622300A9F39A /* Model */,
+				04D42F3E24D92F0300515722 /* Assets.xcassets */,
+				04D42F4324D92F0300515722 /* LaunchScreen.storyboard */,
+				04D42F4624D92F0300515722 /* Info.plist */,
+				04D42F4024D92F0300515722 /* Preview Content */,
+			);
+			path = "IP Locator";
+			sourceTree = "<group>";
+		};
+		04D42F4024D92F0300515722 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				04D42F4124D92F0300515722 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6567EBFEF180CFC608E06D3E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B0F4D0B5B614DD0322DC20E5 /* Pods-IP Locator.debug.xcconfig */,
+				AA51C8E95DED8B27CAC232A0 /* Pods-IP Locator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6C683842985A8FE6A5672F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BFDC8B69B8C9FC9DF40834 /* Pods_IP_Locator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D42F3424D92F0100515722 /* IP Locator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D42F4924D92F0300515722 /* Build configuration list for PBXNativeTarget "IP Locator" */;
+			buildPhases = (
+				1D145CB4F7A973219A3FEC58 /* [CP] Check Pods Manifest.lock */,
+				04D42F3124D92F0100515722 /* Sources */,
+				04D42F3224D92F0100515722 /* Frameworks */,
+				04D42F3324D92F0100515722 /* Resources */,
+				58E11680533E7DD9BE89EF32 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IP Locator";
+			productName = "IP Locator";
+			productReference = 04D42F3524D92F0100515722 /* IP Locator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D42F2D24D92F0100515722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = pstw._;
+				TargetAttributes = {
+					04D42F3424D92F0100515722 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 04D42F3024D92F0100515722 /* Build configuration list for PBXProject "IP Locator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D42F2C24D92F0100515722;
+			productRefGroup = 04D42F3624D92F0100515722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D42F3424D92F0100515722 /* IP Locator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D42F3324D92F0100515722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D42F4524D92F0300515722 /* LaunchScreen.storyboard in Resources */,
+				04D42F4224D92F0300515722 /* Preview Assets.xcassets in Resources */,
+				04D42F3F24D92F0300515722 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D145CB4F7A973219A3FEC58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IP Locator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58E11680533E7DD9BE89EF32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IP Locator/Pods-IP Locator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IP Locator/Pods-IP Locator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IP Locator/Pods-IP Locator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D42F3124D92F0100515722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D42F4F24D9301A00515722 /* Model.swift in Sources */,
+				04D42F5124D938FF00515722 /* MapView.swift in Sources */,
+				04D42F3924D92F0100515722 /* AppDelegate.swift in Sources */,
+				04D42F3B24D92F0100515722 /* SceneDelegate.swift in Sources */,
+				04D42F3D24D92F0100515722 /* ContentView.swift in Sources */,
+				04D42F4D24D92F7500515722 /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04D42F4324D92F0300515722 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D42F4424D92F0300515722 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D42F4724D92F0300515722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D42F4824D92F0300515722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D42F4A24D92F0300515722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F4D0B5B614DD0322DC20E5 /* Pods-IP Locator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IP Locator/Preview Content\"";
+				DEVELOPMENT_TEAM = SWR83G7DDM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IP Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.addindev.IP-Locator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D42F4B24D92F0300515722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA51C8E95DED8B27CAC232A0 /* Pods-IP Locator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"IP Locator/Preview Content\"";
+				DEVELOPMENT_TEAM = SWR83G7DDM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "IP Locator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.addindev.IP-Locator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D42F3024D92F0100515722 /* Build configuration list for PBXProject "IP Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D42F4724D92F0300515722 /* Debug */,
+				04D42F4824D92F0300515722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D42F4924D92F0300515722 /* Build configuration list for PBXNativeTarget "IP Locator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D42F4A24D92F0300515722 /* Debug */,
+				04D42F4B24D92F0300515722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D42F2D24D92F0100515722 /* Project object */;
+}
